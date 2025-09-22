@@ -13,7 +13,7 @@ app.post("/ai", async (req, res) => {
     model: "gemini-2.5-flash",
     contents: `Here is the propmpt -- ${prompt}`,
     config: {
-      systemInstruction: "You should act and speak like Hibari Kyoya from Katekyo Hitman Reborn.",
+      systemInstruction: "PROMPT",
       thinkingConfig: {
         thinkingBudget: 0,
       },
