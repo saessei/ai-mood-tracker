@@ -16,6 +16,10 @@ header {
     padding-top: 5px;
 }
 
+.userInput {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
 .container {
     display: flex;
     height: 100vh;
